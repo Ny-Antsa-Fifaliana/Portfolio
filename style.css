@@ -255,6 +255,7 @@ section{
 
 ._svg{
     opacity: 0;
+    padding-bottom: 1rem;
 }
 
 
@@ -621,7 +622,7 @@ a.btn:hover::before{
 }
 
 .other-left{
-    flex: 1 1 40%;
+    flex: 1 1 50%;
     text-align: center;
     justify-content: center;
 }
@@ -760,7 +761,7 @@ a.btn:hover::before{
         font-size: 95%;
     }
 
-    svg {
+    ._svg {
         margin-left: -22px;
     }
     .footer p{
@@ -895,7 +896,7 @@ a.btn:hover::before{
 
     svg text{
         width: 60%;
-        font-size: 14rem;
+        font-size: 15rem;
     }
     .footer p{
         font-size: .8rem;
