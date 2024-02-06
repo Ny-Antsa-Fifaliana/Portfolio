@@ -765,6 +765,11 @@ a.btn:hover::before{
     ._svg {
         margin-left: -22px;
     }
+
+    svg text{
+        font-size: 15rem;
+    }
+
     .footer p{
         font-size: .8rem;
     }
@@ -787,6 +792,10 @@ a.btn:hover::before{
         font-weight: 700;
         letter-spacing: 1px;
     }
+    svg text{
+        font-size: 15rem;
+    }
+
 }
 
 @media (max-width: 900px){
@@ -805,6 +814,10 @@ a.btn:hover::before{
         font-weight: 700;
         letter-spacing: 1px;
     }
+    svg text{
+        font-size: 15rem;
+    }
+
 }
 
 @media (max-width: 850px){
@@ -927,6 +940,10 @@ a.btn:hover::before{
         font-weight: 700;
         letter-spacing: 1px;
     }
+    svg text{
+        font-size: 18rem;
+    }
+
 }
 
 @media (max-width: 300px){
@@ -940,6 +957,10 @@ a.btn:hover::before{
         font-weight: 700;
         letter-spacing: 1px;
     }
+    svg text{
+        font-size: 18rem;
+    }
+
 }
 
 @media (max-width: 250px){
@@ -964,6 +985,9 @@ a.btn:hover::before{
         font-weight: 700;
         letter-spacing: 1px;
     }
-    
+    svg text{
+        font-size: 18rem;
+    }
+
 }
 
