@@ -243,6 +243,7 @@ section{
     grid-template-columns: repeat(2,1fr);
     grid-gap: 4em;
     align-items: center;
+    padding-bottom: 15rem;
 }
 
 .home-content{
@@ -420,6 +421,7 @@ a.btn:hover::before{
     gap: 1.5rem;
     padding-top: 5rem;
     margin-top: 5rem;
+    padding-bottom: 16rem;
 }
 
 .about .heading span{
@@ -616,8 +618,7 @@ a.btn:hover::before{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    grid-row-gap: 30px;
-    grid-column-gap: 60px;
+    gap: 5rem;
     align-items: baseline;
 }
 
