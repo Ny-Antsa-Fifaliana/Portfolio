@@ -40,7 +40,6 @@
     let current__scrollPosition = this.window.scrollY;
      if(current__scrollPosition<scroll__position){
          header__elem.classList.add("hidden__opacity");
-        //  header__elem.classList.add("hidden__display");
 
      }
      else{
@@ -75,6 +74,8 @@ var text__about ="My name is ANDRIAFAMANTANANTSOA Ny Antsa Fifaliana and I have 
 var text__achievement = "Achievements";
 var text__skills = "SKILLS";
 var text__others = "OTHERS";
+var text__welcome = "Welcome to my portfolio !";
+
 
 
 var speedEmail = "120";
@@ -82,12 +83,16 @@ var speedAbout = "1";
 var speedAchievement = "120";
 var speedSkills = "120";
 var speedOthers = "120";
+var speedWelcome = "80";
+
 
 var typingEmail = false;
 var typingAbout = false;
 var typingAchievement = false;
 var typingSkills = false;
 var typingOthers = false;
+var typingWelcome = false;
+
 
 
 var _email= $('.emailText');
@@ -100,6 +105,9 @@ var _skills=$('.skillsText');
 var skills= _skills[0];
 var _others=$('.othersText');
 var others= _others[0];
+var _welcome=$('.welcomeText');
+var welcome= _welcome[0];
+
 
  function isInViewport(elem){
     var bounding = elem.getBoundingClientRect();
@@ -121,9 +129,12 @@ var others= _others[0];
     }
     if(elem=="skillsText"){
         typingSkills= true;
-   }
+    }
     if(elem=="othersText"){
     typingOthers= true;
+    }
+    if(elem=="welcomeText"){
+        typingWelcome= true;
     }
 
     if(i < text.length){
@@ -170,6 +181,13 @@ var others= _others[0];
             typeWriter(text__others,0,"othersText",speedOthers);
         }
     }  
+    if(isInViewport(welcome) && !typingWelcome){
+        var topWelcome = $('.welcomeText')[0].getBoundingClientRect().top;
+        var height6 = $(window).height();
+        if(topWelcome < height6){
+            typeWriter(text__welcome,0,"welcomeText",speedWelcome);
+        }
+    } 
  });
 
 
@@ -183,19 +201,19 @@ items.css({opacity:0, bottom : -100});
 var i=0;
 function showItem(){
     if(i<items.length){
-        $(items[i]).animate({opacity:1, bottom:0},1000);
+        $(items[i]).animate({opacity:1, bottom:0},600);
         i++;
-        setTimeout(showItem,1500);
+        setTimeout(showItem,600);
     }
 }
 
 
-
+// for div when loading
 var loader = document.querySelector(".load");
 var svg = document.querySelector("._svg");
 
     $(window).on("load",function(){
-        setTimeout(function(){loader.style.transition = "opacity 1s";loader.style.opacity = 0;},3000)
+         setTimeout(function(){loader.style.transition = "opacity 1s";loader.style.opacity = 0;},3000)
          setTimeout(function(){loader.remove();},4000);
          setTimeout(function(){ document.body.style.overflow = "auto";},4000);
          setTimeout(function(){ svg.style.transition="opacity 1s"; svg.style.opacity =1;},4000);
@@ -203,11 +221,6 @@ var svg = document.querySelector("._svg");
          setTimeout(function(){typeWriter(text__email,0, "emailText", speedEmail);},4000);
     })
 
-// when load
-  $(window).ready(function(){
-    
-   
-  });
 
 
 
