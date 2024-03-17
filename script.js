@@ -74,6 +74,7 @@ var text__about ="My name is ANDRIAFAMANTANANTSOA Ny Antsa Fifaliana and I have 
 var text__achievement = "Achievements";
 var text__skills = "SKILLS";
 var text__others = "OTHERS";
+var text__projects = "PROJECTS";
 var text__welcome = "Welcome to my portfolio !";
 
 
@@ -83,6 +84,7 @@ var speedAbout = "1";
 var speedAchievement = "120";
 var speedSkills = "120";
 var speedOthers = "120";
+var speedProjects = "120";
 var speedWelcome = "80";
 
 
@@ -91,6 +93,7 @@ var typingAbout = false;
 var typingAchievement = false;
 var typingSkills = false;
 var typingOthers = false;
+var typingProjects = false;
 var typingWelcome = false;
 
 
@@ -105,6 +108,8 @@ var _skills=$('.skillsText');
 var skills= _skills[0];
 var _others=$('.othersText');
 var others= _others[0];
+var _projects=$('.projectsText');
+var projects= _projects[0];
 var _welcome=$('.welcomeText');
 var welcome= _welcome[0];
 
@@ -133,6 +138,9 @@ var welcome= _welcome[0];
     if(elem=="othersText"){
     typingOthers= true;
     }
+    if(elem=="projectsText"){
+        typingProjects= true;
+        }
     if(elem=="welcomeText"){
         typingWelcome= true;
     }
@@ -181,6 +189,13 @@ var welcome= _welcome[0];
             typeWriter(text__others,0,"othersText",speedOthers);
         }
     }  
+    if(isInViewport(projects) && !typingProjects){
+        var topProjects = $('.projectsText')[0].getBoundingClientRect().top;
+        var height7 = $(window).height();
+        if(topProjects < height7){
+            typeWriter(text__projects,0,"projectsText",speedProjects);
+        }
+    }
     if(isInViewport(welcome) && !typingWelcome){
         var topWelcome = $('.welcomeText')[0].getBoundingClientRect().top;
         var height6 = $(window).height();
