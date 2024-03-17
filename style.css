@@ -654,19 +654,11 @@ a.btn:hover::before{
     justify-content: center;
     align-items: start;
     flex-wrap: wrap;
-    row-gap: 8rem;
-    column-gap: 8rem;
-    -webkit-row-gap: 8rem;
-    -moz-row-gap: 8rem;
-    -ms-row-gap: 8rem;
-    -webkit-column-gap: 8rem;
-    -moz-column-gap: 8rem;
-    -ms-column-gap: 8rem;
-
 }
 .cardProject{
     display: flex;
     flex-direction: column;
+    margin: 4rem;
 }
 .ImgProjects img{
     width: 300px;
