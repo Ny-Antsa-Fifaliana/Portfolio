@@ -529,7 +529,7 @@ a.btn:hover::before{
 
 .education-column .title{
     font-size: 1.6rem;
-    margin: 3rem 0 1.5rem 2rem;
+    margin: 3rem 0 3rem 2rem;
 }
 
 .education-box .education-content{
@@ -614,7 +614,6 @@ a.btn:hover::before{
     justify-content: center;
     align-items: baseline;
     margin-top: 3rem;
-    padding: 1rem;
 }
 
 .grid-contains .grid-column{
@@ -633,7 +632,6 @@ a.btn:hover::before{
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-    padding: 1rem;
 }
 .flex-contains .flex-item{
     margin: 1rem;
