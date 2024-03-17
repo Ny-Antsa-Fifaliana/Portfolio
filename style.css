@@ -618,7 +618,7 @@ a.btn:hover::before{
 .grid-contains .grid-column{
     display: flex;
     flex-direction: column;
-    margin: 1.8rem;
+    margin-bottom: 1.8rem;
     padding: 1rem 0 1.5rem 0;
     flex: 1 1 250px;
     border: solid .1rem var(--hover-color);
@@ -1060,6 +1060,12 @@ a.btn:hover::before{
     .other{
         background: radial-gradient(circle, rgba(106,27,0,1) 0%, rgba(106,27,0,1) 0%, rgba(8,3,26,1) 85%);
     
+    }
+}
+
+@media (min-width: 625px){
+    .grid-contains .grid-column{
+        margin: 1.8rem;
     }
 }
 
