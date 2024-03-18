@@ -434,6 +434,7 @@ a.btn:hover::before{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: auto;
 }    
 
 .welcome .heading{
@@ -461,7 +462,7 @@ a.btn:hover::before{
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
-    padding-bottom: 16rem;
+    padding-bottom: 3rem;
 }
 
 .about .heading span{

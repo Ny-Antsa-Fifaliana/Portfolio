@@ -65,6 +65,7 @@
         navlist.classList.remove("open");
     }
 
+    
 
 
 //  ------------  JQUERY  ------------------------
@@ -80,11 +81,11 @@ var text__welcome = "Welcome to my portfolio !";
 
 var speedEmail = "120";
 var speedAbout = "1";
-var speedAchievement = "120";
+var speedAchievement = "70";
 var speedSkills = "120";
 var speedOthers = "120";
 var speedProjects = "120";
-var speedWelcome = "80";
+var speedWelcome = "50";
 
 
 var typingEmail = false;
@@ -235,11 +236,6 @@ var svg = document.querySelector("._svg");
          setTimeout(function(){showItem();},4000);
          setTimeout(function(){typeWriter(text__email,0, "emailText", speedEmail);},4000);
     })
-
-
-
-
-
 
 
 
