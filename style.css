@@ -8,8 +8,9 @@
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth; /*scroll fluide ex: ancre*/
-}
-
+    }
+   
+      
 /* -------------- variable --------------- */
 :root{
     --text-color: #f5f5f5;
@@ -175,6 +176,7 @@ section{
     border-radius: 50%;
     box-shadow: 0 0 150px 250px red;
     opacity: 0.1;
+    z-index: -100;
 }
 
 .zone-blue{
@@ -186,6 +188,7 @@ section{
     border-radius: 50%;
     box-shadow: 0 0 100px 100px blue;
     opacity: 0.1;
+    z-index: -100;
 }
 
 .zone-pink{
@@ -198,6 +201,7 @@ section{
     border-radius: 50%;
     box-shadow: 0 0 100px 100px #ff009d;
     opacity: 0.1;
+    z-index: -100;
 }
 .zone-pinkEnd{
     position: absolute;
@@ -209,6 +213,7 @@ section{
     border-radius: 50%;
     box-shadow: 0 0 100px 100px #ff009d;
     opacity: 0.1;
+    z-index: -100;
 }
 
 .zone-purple{
@@ -221,6 +226,7 @@ section{
     border-radius: 50%;
     box-shadow: 0 0 100px 100px #5d00ff;
     opacity: 0.1;
+    z-index: -100;
 }
 
 .zone-red2{
@@ -233,6 +239,7 @@ section{
     border-radius: 50%;
     box-shadow: 0 0 150px 250px red;
     opacity: 0.1;
+    z-index: -100;
 }
 
 .Main{
@@ -318,7 +325,7 @@ svg text{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
+    width: 150px;
     height: 100%;
     background-color: var(--bg-color);
     color: var(--hover-color);

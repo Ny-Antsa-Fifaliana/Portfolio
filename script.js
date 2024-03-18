@@ -67,7 +67,6 @@
 
 
 
-
 //  ------------  JQUERY  ------------------------
 var text__email = "nyantsafifaliana240@gmail.com";
 var text__about ="My name is ANDRIAFAMANTANANTSOA Ny Antsa Fifaliana and I have a passion for computer development and design, creating innovative and aesthetic solutions. I am 23 years old and I come from Madagascar. I live in Ambohidroa Antananarivo TANA VI. I am always looking for new challenges and learning opportunities. You can check my achievements on this portofolio.";
@@ -203,6 +202,7 @@ var welcome= _welcome[0];
             typeWriter(text__welcome,0,"welcomeText",speedWelcome);
         }
     } 
+    
  });
 
 
