@@ -462,8 +462,9 @@ a.btn:hover::before{
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 3rem;  
 }
+
 
 .about .heading span{
     color: var(--hover-color);
@@ -1145,4 +1146,21 @@ a.btn:hover::before{
     }
 
 }
+
+
+
+
+
+/* for parallax js */
+.parallax{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.parallax.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 
