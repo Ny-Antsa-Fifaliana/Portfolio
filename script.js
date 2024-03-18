@@ -81,7 +81,7 @@ var text__welcome = "Welcome to my portfolio !";
 
 var speedEmail = "120";
 var speedAbout = "1";
-var speedAchievement = "70";
+var speedAchievement = "120";
 var speedSkills = "120";
 var speedOthers = "120";
 var speedProjects = "120";
