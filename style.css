@@ -422,6 +422,7 @@ a.btn:hover::before{
 
 .emailText{
     font-size: 0.8rem;
+    font-family: "Inter", sans-serif;
 }
 
 
