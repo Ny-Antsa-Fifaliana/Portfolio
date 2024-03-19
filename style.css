@@ -1155,12 +1155,12 @@ a.btn:hover::before{
 .parallax{
     position: relative;
     transform: translateY(10px);
-    opacity: 0;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
+    transform: scale(99%);
 }
 .parallax.active {
     transform: translateY(0);
-    opacity: 1;
+    transform: scale(100%);
 }
 
 
