@@ -326,8 +326,8 @@ svg text{
     align-items: center;
     width: 150px;
     height: 100%;
-    background-color: var(--bg-color);
-    color: var(--hover-color);
+    background-color:var(--hover-color);
+    color:  var(--bg-color);
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 500;
@@ -344,7 +344,7 @@ a.btn::before{
     position: absolute;
     top: 0;
     left: 0;
-    background: var(--hover-color);
+    background:  var(--bg-color);
     width: 0%;
     height: 100%;
     z-index: -1;
@@ -352,7 +352,7 @@ a.btn::before{
 }
 
 a.btn:hover{
-    color: var(--bg-color);
+    color: var(--hover-color);
 }
 
 a.btn:hover::before{
@@ -1073,7 +1073,7 @@ a.btn:hover::before{
     }
     .social-icons a{
         width: 30px;
-        margin: 2px;
+        margin: 4px;
     }
     .btn-box{
         width: auto;
