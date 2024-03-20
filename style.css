@@ -6,7 +6,6 @@
     box-sizing: border-box; /*border and content include in width, height*/
     list-style: none;
     text-decoration: none;
-    scroll-behavior: smooth; /*scroll fluide ex: ancre*/
     }
    
       
@@ -141,6 +140,7 @@ span{
     color: var(--hover-color);
     text-shadow: var(--font-neon-text-shadow);
 }
+
 
 .navlist a.active{
     color: var(--hover-color);

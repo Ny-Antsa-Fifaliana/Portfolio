@@ -1,5 +1,18 @@
 
 // -----------------  JavaScript  -------------------------
+// defilement ancre
+{
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+      
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+      
+}
 {
     // Active menu bar navigation
     let menuLi = document.querySelectorAll('header ul li a');
@@ -263,7 +276,22 @@ var svg = document.querySelector("._svg");
          setTimeout(function(){ svg.style.transition="opacity 1s"; svg.style.opacity =1;},4000);
          setTimeout(function(){showItem();},4000);
          setTimeout(function(){typeWriter(text__email,0, "emailText", speedEmail);},4000);
+    
+         // fluid defilement lenis
+        const lenis = new Lenis()
+
+        lenis.on('scroll', (e) => {
+        })
+
+        function raf(time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf)
     })
+
+    
 
 
 
