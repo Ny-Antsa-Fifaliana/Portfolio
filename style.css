@@ -1104,7 +1104,7 @@ a.btn:hover::before{
         border-right: solid .1rem var(--pink-color);
     }
     .home-image .img-box img{
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 }
 
