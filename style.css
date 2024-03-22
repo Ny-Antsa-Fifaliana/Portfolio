@@ -564,7 +564,7 @@ a.btn:hover::before{
 .education-content .content{
     position: relative;
     padding: 1.5rem;
-    border-left: 0.1px solid #094a4c;
+    border-left: 0.1px solid var(--pink-color);
     margin-bottom: 2rem;
     overflow: hidden;
 }
@@ -727,6 +727,8 @@ a.btn:hover::before{
     flex-direction: row;
     margin-top: 1rem;
     border: solid 1px var(--hover-color);
+    border-bottom: solid 1px var(--pink-color);
+    border-right: solid 1px var(--pink-color);
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-top: 0.5rem;
