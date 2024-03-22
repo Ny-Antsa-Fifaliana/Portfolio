@@ -116,7 +116,6 @@ var text__achievement = "Achievements";
 var text__skills = "SKILLS";
 var text__others = "OTHERS";
 var text__projects = "PROJECTS";
-var text__welcome = "Welcome to my portfolio !";
 
 
 
@@ -126,7 +125,6 @@ var speedAchievement = "1";
 var speedSkills = "120";
 var speedOthers = "120";
 var speedProjects = "120";
-var speedWelcome = "50";
 
 
 var typingEmail = false;
@@ -135,7 +133,6 @@ var typingAchievement = false;
 var typingSkills = false;
 var typingOthers = false;
 var typingProjects = false;
-var typingWelcome = false;
 
 
 
@@ -151,8 +148,6 @@ var _others=$('.othersText');
 var others= _others[0];
 var _projects=$('.projectsText');
 var projects= _projects[0];
-var _welcome=$('.welcomeText');
-var welcome= _welcome[0];
 
 
  function isInViewport(elem){
@@ -182,9 +177,6 @@ var welcome= _welcome[0];
     if(elem=="projectsText"){
         typingProjects= true;
         }
-    if(elem=="welcomeText"){
-        typingWelcome= true;
-    }
 
     if(i < text.length){
          $("."+elem).html(text.substring(0,i+1));
@@ -237,13 +229,6 @@ var welcome= _welcome[0];
             typeWriter(text__projects,0,"projectsText",speedProjects);
         }
     }
-    if(isInViewport(welcome) && !typingWelcome){
-        var topWelcome = $('.welcomeText')[0].getBoundingClientRect().top;
-        var height6 = $(window).height();
-        if(topWelcome < height6){
-            typeWriter(text__welcome,0,"welcomeText",speedWelcome);
-        }
-    } 
     
  });
 
