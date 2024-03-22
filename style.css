@@ -412,6 +412,7 @@ a.btn:hover::before{
     animation: neon 5s infinite alternate;
     border-radius: 50% ;
     border: solid 1rem #c7fdff;
+    width: 20rem;
 }
 
 @keyframes neon {
