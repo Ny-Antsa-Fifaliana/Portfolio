@@ -377,7 +377,7 @@ a.btn:hover::before{
     height: 100%;
     justify-content: center;
     align-items: center;
-    color: var(--pink-color);
+    color: var(--hover-color);
     transition: .6s;
     border-radius: 30%;
     position: relative;
@@ -401,7 +401,7 @@ a.btn:hover::before{
     height: 100%;
     top: 0;
     left: 0;
-    background: var(--pink-color);
+    background: var(--hover-color);
     transition: .6s;
 }
 
@@ -542,7 +542,6 @@ a.btn:hover::before{
 .education-column .title{
     font-size: 1.6rem;
     margin: 3rem 0 3rem 2rem;
-    color: var(--pink-color);
 }
 
 .education-box .education-content{
@@ -634,7 +633,7 @@ a.btn:hover::before{
     margin-bottom: 3rem;
     padding: 1rem 0 1.5rem 0;
     flex: 1 1 250px;
-    border: solid .1rem var(--hover-color);
+    border: solid .1rem var(--pink-color);
     border-radius: .6rem;
 }
 
