@@ -1103,6 +1103,9 @@ a.btn:hover::before{
         border-bottom: solid .1rem var(--pink-color);
         border-right: solid .1rem var(--pink-color);
     }
+    .home-image .img-box img{
+        margin-top: 3rem;
+    }
 }
 
 
