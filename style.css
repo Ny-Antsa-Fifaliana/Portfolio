@@ -82,7 +82,7 @@
 body{
     overflow: hidden;
     font-family: "Poppins", sans-serif;
-    background-color: #08031a;
+    background-color: black;
     color: var(--text-color);
 }
 
