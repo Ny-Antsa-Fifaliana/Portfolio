@@ -634,11 +634,9 @@ a.btn:hover::before{
     padding: 1rem 0 1.5rem 0;
     flex: 1 1 250px;
     border: solid .1rem var(--hover-color);
-    border-bottom: solid .1rem var(--pink-color);
-    border-right: solid .1rem var(--pink-color);
-
-    /* border-radius: .6rem; */
+    border-radius: .6rem; 
 }
+
 
 .grid-contains .grid-column .flex-contains{
     display: flex;
@@ -1096,6 +1094,14 @@ a.btn:hover::before{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    #colorBorderTopLeft{
+        border-top: solid .1rem var(--pink-color);
+        border-left: solid .1rem var(--pink-color);
+    }
+    #colorBorderBottomRight{
+        border-bottom: solid .1rem var(--pink-color);
+        border-right: solid .1rem var(--pink-color);
     }
 }
 
