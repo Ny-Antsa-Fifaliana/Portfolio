@@ -1067,6 +1067,11 @@ a.btn:hover::before{
     }
 }
 
+@media (min-width: 625px){
+    .grid-contains .grid-column{
+        margin: 1.8rem;
+    }
+}
 
 @media (max-width: 425px){
     .other{
@@ -1107,14 +1112,15 @@ a.btn:hover::before{
     .home-image .img-box img{
         margin-top: 1rem;
     }
-}
-
-
-@media (min-width: 625px){
-    .grid-contains .grid-column{
-        margin: 1.8rem;
+    .zone-red{
+        top: 0rem;
+        left: 0rem;
+        width: 80px;
+        height: 180px;
+        box-shadow: 0 0 100px 100px red;
     }
 }
+
 
 
 @media (max-width: 420px){
@@ -1136,6 +1142,7 @@ a.btn:hover::before{
     svg text{
         font-size: 18rem;
     }
+    
  
 }
 
