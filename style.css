@@ -656,13 +656,6 @@ a.btn:hover::before{
 .flex-contains .flex-item span i{
     font-size: 2rem;
 }
-.adobe{
-    border: solid 1px var(--hover-color);
-    padding: 0.6rem;
-    border-radius: .6rem;
-    color: white;
-    
-}
 
 
 
