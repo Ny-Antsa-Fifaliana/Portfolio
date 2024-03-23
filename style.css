@@ -455,7 +455,7 @@ a.btn:hover::before{
     height: 5px;
     margin-top: 0.6rem;
     border-radius: 50%;
-    background: linear-gradient(303deg, rgba(108,0,28,1) 0%, rgba(108,0,28,1) 10%, rgb(10, 4, 36) 78%);
+    background: linear-gradient(303deg, #250423 0%, #250423 10%, transparent 78%);
 
 }
 .tiretSvg, .tiretAchievement, .tiretSkills, .tiretProject{
@@ -1149,7 +1149,8 @@ a.btn:hover::before{
         height: 6px;
         margin-top: 0.3rem;
         border-radius: 50%;
-        background: linear-gradient(303deg, rgba(108,0,28,1) 0%, rgba(108,0,28,1) 10%, rgb(10, 4, 36) 78%);
+        background: linear-gradient(303deg, #250423 0%, #250423 10%, transparent 78%);
+
     }
     .tiretSkills{
         display: block;
@@ -1158,7 +1159,8 @@ a.btn:hover::before{
         margin-top: 1.5rem;
         margin-left: 6rem;
         border-radius: 50%;
-        background: linear-gradient(303deg, rgba(108,0,28,1) 0%, rgba(108,0,28,1) 10%, rgb(10, 4, 36) 78%);
+        background: linear-gradient(303deg, #250423 0%, #250423 10%, transparent 78%);
+
     }
     .tiretProject{
         display: block;
@@ -1166,7 +1168,8 @@ a.btn:hover::before{
         height: 6px;
         margin-top: 2rem;
         border-radius: 50%;
-        background: linear-gradient(303deg, rgba(108,0,28,1) 0%, rgba(108,0,28,1) 10%, rgb(10, 4, 36) 78%);
+        background: linear-gradient(303deg, #250423 0%, #250423 10%, transparent 78%);
+
     }
     .projectsText{
         margin-bottom: 1rem;
