@@ -120,7 +120,7 @@ var text__projects = "PROJECTS";
 
 
 var speedEmail = "120";
-var speedAbout = "1";
+var speedAbout = "0.1";
 var speedAchievement = "1";
 var speedSkills = "120";
 var speedOthers = "120";
