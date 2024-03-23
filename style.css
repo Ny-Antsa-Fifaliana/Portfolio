@@ -1134,13 +1134,14 @@ a.btn:hover::before{
         100% {filter: drop-shadow(0 0 20px red)drop-shadow(0 0 60px var(--bg-color))drop-shadow(0 0 20px red);}
     }
     .tiretSvg{
-        display: block;
-        position: relative;
-        width: 120px;
+       display: block;
+       position: relative;
+       width: 120px;
        height: 5px;
+       margin-left: 5rem;
        margin-bottom: 2rem;
        border-radius: 50%;
-       background: linear-gradient(303deg, rgba(108,0,28,1) 0%, #250423 10%, transparent 78%);
+       background: linear-gradient(303deg, #250423 0%, #250423 10%, transparent 78%);
     }
     .tiretAchievement{
         display: block;
