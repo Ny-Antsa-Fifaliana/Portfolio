@@ -245,7 +245,7 @@ function showItem(){
     if(i<items.length){
         $(items[i]).animate({opacity:1, bottom:0},600);
         i++;
-        setTimeout(showItem,600);
+        setTimeout(showItem,300);
     }
 }
 
