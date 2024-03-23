@@ -1113,10 +1113,10 @@ a.btn:hover::before{
         margin-top: 1rem;
     }
     .zone-red{
-        top: 0rem;
+        top: 7rem;
         left: 0rem;
         width: 80px;
-        height: 180px;
+        height: 80px;
         box-shadow: 0 0 100px 100px red;
     }
 }
