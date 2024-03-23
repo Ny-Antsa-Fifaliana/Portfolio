@@ -1140,7 +1140,7 @@ a.btn:hover::before{
        height: 5px;
        margin-bottom: 2rem;
        border-radius: 50%;
-       background: linear-gradient(303deg, rgba(108,0,28,1) 0%, rgba(108,0,28,1) 10%, rgb(10, 4, 36) 78%);
+       background: linear-gradient(303deg, #250423 0%, #250423 10%, rgb(10, 4, 36) 78%);
     }
     .tiretAchievement{
         display: block;
