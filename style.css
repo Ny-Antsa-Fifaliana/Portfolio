@@ -470,7 +470,9 @@ a.btn:hover::before{
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
-    padding-bottom: 3rem;  
+    padding-bottom: 3rem;
+    min-height: 563px;
+    padding-bottom: 5rem;
 }
 
 
@@ -1105,10 +1107,6 @@ a.btn:hover::before{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    #colorBorderTopLeft{
-        border-top: solid .1rem var(--red-color);
-        border-left: solid .1rem var(--red-color);
     }
     #colorBorderBottomRight{
         border-bottom: solid .1rem var(--red-color);
