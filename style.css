@@ -1265,11 +1265,13 @@ a.btn:hover::before{
 .parallaxWelcome{
     position: relative;
     transform: translateY(100px);
-    transition: all 2s ease;
+    transition: all 1s ease;
+    transform: scale(80%);
     opacity: 0;
 }
 .parallaxWelcome.active {
     transform: translateY(0);
     opacity: 1;
+    transform: scale(100%);
 }
 
