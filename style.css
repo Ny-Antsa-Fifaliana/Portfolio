@@ -436,6 +436,7 @@ a.btn:hover::before{
     justify-content: center;
     align-items: center;
     height: auto;
+    padding-top: 8rem;
 }    
 
 .welcome .heading{
@@ -1261,5 +1262,14 @@ a.btn:hover::before{
     transform: translateY(0);
     opacity: 1;
 }
-
+.parallaxWelcome{
+    position: relative;
+    transform: translateY(100px);
+    transition: all 2s ease;
+    opacity: 0;
+}
+.parallaxWelcome.active {
+    transform: translateY(0);
+    opacity: 1;
+}
 

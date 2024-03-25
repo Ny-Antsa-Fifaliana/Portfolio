@@ -85,6 +85,7 @@
     {
         function revealElements() {
             var reveals = document.querySelectorAll('.parallax');
+            var revealsWelcome = document.querySelectorAll('.parallaxWelcome');
         
             for (var i = 0; i < reveals.length; i++) {
                 var windowHeight = window.innerHeight;
@@ -95,6 +96,20 @@
                     reveals[i].classList.add('active');
                 } else {
                     reveals[i].classList.remove('active');
+                }
+            }
+
+            if(revealsWelcome){
+                for (var j = 0; j < revealsWelcome.length; j++) {
+                    var windowHeightWelcome = window.innerHeight;
+                    var elementTopWelcome = revealsWelcome[j].getBoundingClientRect().top;
+                    var elementVisibleWelcome = 50;
+            
+                    if (elementTopWelcome < windowHeightWelcome - elementVisibleWelcome) {
+                        revealsWelcome[j].classList.add('active');
+                    } else {
+                        revealsWelcome[j].classList.remove('active');
+                    }
                 }
             }
         }
