@@ -436,7 +436,7 @@ a.btn:hover::before{
     justify-content: center;
     align-items: center;
     height: auto;
-    padding-top: 8rem;
+    padding-top: 10rem;
 }    
 
 .welcome .heading{
