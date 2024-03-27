@@ -1195,7 +1195,7 @@ a.btn:hover::before{
     }
     .parallaxZoom{
         position: relative;
-        transform: scale(80%);
+        transform: scale(95%);
         transition: all 0.5s ease;
         opacity: 0;
     }
