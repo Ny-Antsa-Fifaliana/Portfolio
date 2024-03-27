@@ -1187,7 +1187,7 @@ a.btn:hover::before{
 
     .parallaxLeft{
         position: relative;
-        transform: translateX(20px);
+        transform: translateX(10px);
         transition: all 1s ease;
     }
     .parallaxLeft.active {
