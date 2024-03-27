@@ -1172,6 +1172,29 @@ a.btn:hover::before{
     .projectsText{
         margin-bottom: 1rem;
     }
+
+    /* Parallax */
+    .parallaxRight{
+        position: relative;
+        transform: translateX(-250px);
+        transition: all 0.5s ease;
+        opacity: 0;
+    }
+    .parallaxRight.active {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    .parallaxLeft{
+        position: relative;
+        transform: translateX(250px);
+        transition: all 0.5s ease;
+        opacity: 0;
+    }
+    .parallaxLeft.active {
+        transform: translateX(0);
+        opacity: 1;
+    }
   
 }
 
