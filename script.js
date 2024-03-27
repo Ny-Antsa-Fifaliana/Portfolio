@@ -144,7 +144,7 @@
                 }
             }
             if(revealsZoom){
-                for (var m = 0; m < revealsLeft.length; m++) {
+                for (var m = 0; m < revealsZoom.length; m++) {
                     var windowHeightZoom = window.innerHeight;
                     var elementTopZoom = revealsZoom[m].getBoundingClientRect().top;
                     var elementVisibleZoom = 50;
