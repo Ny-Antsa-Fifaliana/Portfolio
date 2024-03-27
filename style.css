@@ -1174,6 +1174,9 @@ a.btn:hover::before{
     }
 
     /* Parallax */
+    .skills{
+        overflow-x: hidden;
+    }
     .parallaxRight{
         position: relative;
         transform: translateX(-250px);
