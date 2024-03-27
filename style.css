@@ -1109,10 +1109,6 @@ a.btn:hover::before{
         justify-content: center;
         align-items: center;
     }
-    #colorBorderBottomRight{
-        border-bottom: solid .1rem var(--red-color);
-        border-right: solid .1rem var(--red-color);
-    }
     .home-image .img-box img{
         margin-top: 1rem;
     }
@@ -1172,9 +1168,12 @@ a.btn:hover::before{
     .projectsText{
         margin-bottom: 1rem;
     }
+    #border-red{
+        border: solid 1px var(--red-color);
+    }
 
     /* Parallax */
-    .skills{
+    .projects, .skills{
         overflow-x: hidden;
     }
     .parallaxRight{
