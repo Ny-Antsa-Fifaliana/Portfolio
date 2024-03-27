@@ -88,6 +88,7 @@
             var revealsWelcome = document.querySelectorAll('.parallaxWelcome');
             var revealsRight = document.querySelectorAll('.parallaxRight');
             var revealsLeft = document.querySelectorAll('.parallaxLeft');
+            var revealsZoom = document.querySelectorAll('.parallaxZoom');
 
 
         
@@ -139,6 +140,19 @@
                         revealsLeft[l].classList.add('active');
                     } else {
                         revealsLeft[l].classList.remove('active');
+                    }
+                }
+            }
+            if(revealsZoom){
+                for (var m = 0; m < revealsLeft.length; m++) {
+                    var windowHeightZoom = window.innerHeight;
+                    var elementTopZoom = revealsZoom[m].getBoundingClientRect().top;
+                    var elementVisibleZoom = 50;
+            
+                    if (elementTopZoom < windowHeightZoom - elementVisibleZoom) {
+                        revealsZoom[m].classList.add('active');
+                    } else {
+                        revealsZoom[m].classList.remove('active');
                     }
                 }
             }

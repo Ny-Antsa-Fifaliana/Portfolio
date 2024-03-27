@@ -1198,7 +1198,16 @@ a.btn:hover::before{
         transform: translateX(0);
         opacity: 1;
     }
-  
+    .parallaxZoom{
+        position: relative;
+        transform: scale(80%);
+        transition: all 0.5s ease;
+        opacity: 0;
+    }
+    .parallaxZoom.active {
+        transform: scale(100%);
+        opacity: 1;
+    }
 }
 
 
